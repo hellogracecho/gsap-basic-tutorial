@@ -8,7 +8,8 @@ tl.to('.cover', 1, {
     ease: Power2.easeOut
 })
 .to('nav', 1, {
-    height: '100%',
+    // height: '100%',
+    color: '#916356',
     ease: Power2.easeOut
 }, '-= 1')
 .fromTo('.nav-open', 0.5, {
@@ -18,12 +19,13 @@ tl.to('.cover', 1, {
 }, {
     opacity: 1,
     x: 0,
+    pointerEvents: 'auto',
     // Run when the animation is finished
     onComplete: () => {
         navOpen.style.pointEvenets = 'auto';
         console.log('done');
     }
-});
+}, "-=1");
 
 navBtn.addEventListener('click', () => {
     // Prevent event is interupted while one is going
