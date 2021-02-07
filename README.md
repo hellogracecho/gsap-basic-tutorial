@@ -4,8 +4,9 @@ This is very basic GSAP animation practice code with TimelineLite 🤓
 
 ## How to see the action
 
-👉[Check on live](https://hellogracecho.github.io/gsap-basic-tutorial/)
-Click the "Click Me" menu on the top menu bar.
+👉 [Check on live](https://hellogracecho.github.io/gsap-basic-tutorial/)
+
+Click the "Click Me" menu on the top bar to see the animation.
 
 ## How I developeed - pretty simple
 
